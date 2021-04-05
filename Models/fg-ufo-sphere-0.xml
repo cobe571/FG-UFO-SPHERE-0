@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+ <path>fg-ufo-sphere-0.ac</path>
+
+  <!-- AlienFG -->
+  <model>
+    <path>Aircraft/FG-UFO-SPHERE-0/Models/AlienFG/AlienFG.xml</path>
+    <offsets>
+        <x-m> 0.0 </x-m>
+        <y-m> 0.0 </y-m>
+        <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+ 
+  <!-- AI 
+  <model>
+    <path>Aircraft/FG-UFO-SPHERE-0/Models/ai/ai.xml</path>
+    <offsets>
+      <x-m> -1.497 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.964 </z-m>
+    </offsets>
+  </model> -->
+
+  <!-- AS 
+  <model>
+    <path>Aircraft/FG-UFO-SPHERE-0/Models/AS/airspeed.xml</path>
+    <offsets>
+      <x-m> -1.497 </x-m>
+      <y-m> -0.150 </y-m>
+      <z-m>  0.964 </z-m>
+    </offsets>
+  </model> -->
+  
+  <!-- MACH 
+  <model>
+    <path>Aircraft/FG-UFO-SPHERE-0/Models/mach/mach.xml</path>
+    <offsets>
+      <x-m> -1.497 </x-m>
+      <y-m> -0.150 </y-m>
+      <z-m>  0.964 </z-m>
+    </offsets>
+  </model> -->
+
+  <!-- ALT 
+  <model>
+    <path>Aircraft/FG-UFO-SPHERE-0/Models/alt/alt.xml</path>
+    <offsets>
+      <x-m> -1.497 </x-m>
+      <y-m>  0.150 </y-m>
+      <z-m>  0.964 </z-m>
+    </offsets>
+  </model> -->
+  
+  <!-- RDMI 
+  <model>
+    <path>Aircraft/FG-UFO-SPHERE-0/Models/RDMI/RDMI.xml</path>
+    <offsets>
+      <x-m> -1.497 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.999 </z-m>
+    </offsets>
+  </model> -->
+  
+  <!-- YOKE -->
+  <model>
+    <path>Aircraft/FG-UFO-SPHERE-0/Models/yoke/yoke.xml</path>
+    <offsets>
+        <x-m> 0.0 </x-m>
+        <y-m> 0.0 </y-m>
+        <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- THROTTLE -->
+  <model>
+    <path>Aircraft/FG-UFO-SPHERE-0/Models/throttle/throttle.xml</path>
+    <offsets>
+      <x-m> 0.0 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- SPINNING ANIMATION -->
+  <animation>
+    <type>spin</type>
+    <object-name>f-bird-01.001</object-name>
+    <object-name>f-bird-01.002</object-name>
+    <object-name>f-bird-01.004</object-name>
+    <object-name>f-bird-01.013</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.12</factor>
+    <center>
+        <x-m> 0.00000 </x-m>
+        <y-m> 0.00000 </y-m>
+        <z-m> 0.00000 </z-m>
+    </center>
+    <axis>
+        <x>  0  </x>
+        <y>  0  </y>
+        <z>  1  </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>spin</type>
+    <object-name>f-bird-01.003</object-name>
+    <object-name>f-bird-01.012</object-name>
+    <object-name>f-bird-01.016</object-name>
+    <object-name>f-bird-01.018</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.12</factor>
+    <center>
+        <x-m> 0.00000 </x-m>
+        <y-m> 0.00000 </y-m>
+        <z-m> 0.00000 </z-m>
+    </center>
+    <axis>
+        <x>   0  </x>
+        <y>   0  </y>
+        <z>  -1  </z>
+    </axis>
+  </animation>
+
+</PropertyList>
